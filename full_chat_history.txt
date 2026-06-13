@@ -1,0 +1,162 @@
+# Terminal Full Output
+# Terminal: check_files
+# Command: ls -R /home/ubuntu
+# PID: 734
+# Timestamp: 2026-06-13_12-28-30.136843
+# Original Length: 11534 characters
+# ----------------------------------------
+
+[32mubuntu@sandbox:~$ [0mls -R /home/ubuntu
+/home/ubuntu:
+Downloads  sandbox.txt	skills	upload
+/home/ubuntu/Downloads:
+/home/ubuntu/skills:
+automation-and-scheduling  excel-generator  github-gem-seeker  html-video-production  imagegen	internet-skill-finder  manim-animator  manus-api  manus-config	music-prompter	persistent-computing  seo-audit  seo-competitor-analysis  skill-creator  tts-prompter
+/home/ubuntu/skills/automation-and-scheduling:
+SKILL.md  references
+/home/ubuntu/skills/automation-and-scheduling/references:
+implementation-patterns.md
+/home/ubuntu/skills/excel-generator:
+SKILL.md
+/home/ubuntu/skills/github-gem-seeker:
+SKILL.md
+/home/ubuntu/skills/html-video-production:
+LICENSE  NOTICE.txt  SKILL.md  UPSTREAM_LICENSE_APACHE-2.0.txt	_manus-overrides  references
+/home/ubuntu/skills/html-video-production/_manus-overrides:
+media-generation.md  modifications.md
+/home/ubuntu/skills/html-video-production/references:
+gsap  hyperframes  hyperframes-cli  hyperframes-registry  repo-root  website-to-hyperframes
+/home/ubuntu/skills/html-video-production/references/gsap:
+SKILL.md  references  scripts
+/home/ubuntu/skills/html-video-production/references/gsap/references:
+effects.md
+/home/ubuntu/skills/html-video-production/references/gsap/scripts:
+extract-audio-data.py
+/home/ubuntu/skills/html-video-production/references/hyperframes:
+SKILL.md  data-in-motion.md  house-style.md  palettes  patterns.md  references	scripts  templates  visual-styles.md
+/home/ubuntu/skills/html-video-production/references/hyperframes/palettes:
+bold-energetic.md  clean-corporate.md  dark-premium.md	jewel-rich.md  monochrome.md  nature-earth.md  neon-electric.md  pastel-soft.md  warm-editorial.md
+/home/ubuntu/skills/html-video-production/references/hyperframes/references:
+audio-reactive.md  beat-direction.md  captions.md  css-patterns.md  design-picker.md  dynamic-techniques.md  motion-principles.md  narration.md  prompt-expansion.md  techniques.md  transcript-guide.md  transitions  transitions.md  tts.md  typography.md  video-composition.md
+/home/ubuntu/skills/html-video-production/references/hyperframes/references/transitions:
+catalog.md  css-3d.md  css-blur.md  css-cover.md  css-destruction.md  css-dissolve.md  css-distortion.md  css-grid.md  css-light.md  css-mechanical.md	css-other.md  css-push.md  css-radial.md  css-scale.md
+/home/ubuntu/skills/html-video-production/references/hyperframes/scripts:
+animation-map.mjs  contrast-report.mjs	package-loader.mjs
+/home/ubuntu/skills/html-video-production/references/hyperframes/templates:
+design-picker.html
+/home/ubuntu/skills/html-video-production/references/hyperframes-cli:
+SKILL.md
+/home/ubuntu/skills/html-video-production/references/hyperframes-registry:
+SKILL.md  examples  references
+/home/ubuntu/skills/html-video-production/references/hyperframes-registry/examples:
+add-block.md  add-component.md
+/home/ubuntu/skills/html-video-production/references/hyperframes-registry/references:
+demo-html-pattern.md  discovery.md  install-locations.md  wiring-blocks.md  wiring-components.md
+/home/ubuntu/skills/html-video-production/references/repo-root:
+AGENTS.md  README.md
+/home/ubuntu/skills/html-video-production/references/website-to-hyperframes:
+SKILL.md  references
+/home/ubuntu/skills/html-video-production/references/website-to-hyperframes/references:
+step-1-capture.md  step-2-design.md  step-3-script.md  step-4-storyboard.md  step-6-build.md  step-7-validate.md
+/home/ubuntu/skills/imagegen:
+LICENSE.txt  SKILL.md  references
+/home/ubuntu/skills/imagegen/references:
+prompt-recipes.md  quality-checklist.md  scene-decision-matrix.md
+/home/ubuntu/skills/internet-skill-finder:
+SKILL.md  references  scripts
+/home/ubuntu/skills/internet-skill-finder/references:
+skills_cache.json
+/home/ubuntu/skills/internet-skill-finder/scripts:
+fetch_skills.py
+/home/ubuntu/skills/manim-animator:
+SKILL.md  references  scripts  templates
+/home/ubuntu/skills/manim-animator/references:
+composer  decision_tree.md  manimce  manimgl  plugins.md  prompts
+/home/ubuntu/skills/manim-animator/references/composer:
+README.md  references  templates
+/home/ubuntu/skills/manim-animator/references/composer/references:
+narrative-patterns.md  scene-examples.md  visual-techniques.md
+/home/ubuntu/skills/manim-animator/references/composer/templates:
+scenes-template.md
+/home/ubuntu/skills/manim-animator/references/manimce:
+LICENSE.txt  README.md	examples  rules  templates
+/home/ubuntu/skills/manim-animator/references/manimce/examples:
+3d_visualization.py  attention	basic_animations.py  graph_plotting.py	lorenz_attractor.py  math_visualization.py  updater_patterns.py
+/home/ubuntu/skills/manim-animator/references/manimce/examples/attention:
+__init__.py  helpers.py  scenes.py
+/home/ubuntu/skills/manim-animator/references/manimce/rules:
+3d.md  animation-groups.md  animations.md  axes.md  camera.md  cli.md  colors.md  config.md  creation-animations.md  graphing.md  grouping.md  latex.md  lines.md  mobjects.md	positioning.md	scenes.md  shapes.md  styling.md  text-animations.md  text.md  timing.md  transform-animations.md  updaters.md
+/home/ubuntu/skills/manim-animator/references/manimce/templates:
+basic_scene.py	camera_scene.py  threed_scene.py
+/home/ubuntu/skills/manim-animator/references/manimgl:
+LICENSE.txt  README.md	examples  references  rules  templates
+/home/ubuntu/skills/manim-animator/references/manimgl/examples:
+attention_arcs_animation.py   basic_multihead.py	complex_s_plane.py	      double_slit_interference.py	    embedding_matrix.py        hexagon_cube_correspondence.py  llm_prediction_pipeline.py  mlp_network_icon.py	      mlp_weight_matrix.py     probability_distribution.py  query_key_space_mapping.py	  softmax_visualization.py  three_d_surfaces.py		       token_to_embedding.py	  wave_amplitude_visualization.py
+attention_pattern_dots.py     bloch_sphere_3d.py	cost_function.py	      eigenvalue_equations.py		    equation_transforms.py     integration_visualization.py    lorenz_attractor.py	   mlp_neuron_activation.py   multi_head_attention.py  probability_output.py	    radial_wave_visualization.py  solve_damped_ode.py	    three_d_vector_space.py	       tokenization_demo.py	  weight_matrix_product.py
+attention_scenes.py	      block_collision_basic.py	cube_projection_3d.py	      eigenvector_flow_field.py		    exponential_derivative.py  laplace_integral.py	       lozenge_tiling.py	   mlp_neurons_flow.py	      network_block_flow.py    quantum_gates.py		    rotating_exponentials.py	  spring_mass_system.py     token_embeddings_flow.py	       transit_animation.py	  weights_vs_data.py
+attention_softmax_masking.py  blocks_3d.py		damped_solutions_splane.py    eigenvector_matrix_transformation.py  fibonacci_eigenvalues.py   light_polarization.py	       max_random_process.py	   mlp_relu_visualization.py  neural_network_basic.py  qubit_state_vector.py	    semantic_similarity.py	  sqrt_random_process.py    token_probability_distribution.py  value_matrix_transform.py  word_vector_analogy.py
+autoregressive_flow.py	      collision_phase_space.py	dot_product_visualization.py  elastic_collision_vectors.py	    gradient_descent_basic.py  linear_regression.py	       mlp_forward_pass.py	   mlp_vector_space.py	      parallax_starfield.py    query_key_dot_products.py    simple_test.py		  superposition_effect.py   token_sampling.py		       vector_fields.py		  zone_plate_hologram.py
+/home/ubuntu/skills/manim-animator/references/manimgl/references:
+equation_transforms.md	integration_visualization.md  parallax_starfield.md  rotating_exponentials.md  spring_mass_system.md  three_d_surfaces.md  transit_animation.md  vector_fields.md
+/home/ubuntu/skills/manim-animator/references/manimgl/rules:
+3d.md  animation-groups.md  animations.md  camera.md  cli.md  colors.md  config.md  creation-animations.md  embedding.md  frame.md  interactive.md  mobjects.md  scenes.md  styling.md	t2c.md	tex.md	text.md  transform-animations.md
+/home/ubuntu/skills/manim-animator/references/manimgl/templates:
+3d_scene.py  basic_scene.py  interactive_scene.py  math_scene.py
+/home/ubuntu/skills/manim-animator/references/prompts:
+review_technical.md  review_visual.md  write_system.md
+/home/ubuntu/skills/manim-animator/scripts:
+extract_frames.py  finalize_video.sh  generate_subtitles.py  render_scenes.py  setup.sh
+/home/ubuntu/skills/manim-animator/templates:
+quickstart.py
+/home/ubuntu/skills/manus-api:
+SKILL.md  docs
+/home/ubuntu/skills/manus-api/docs:
+v1  v2
+/home/ubuntu/skills/manus-api/docs/v1:
+api-overview.mdx  connectors  create-file.mdx  create-project.mdx  create-task.mdx  create-webhook.mdx	data-integrations  delete-file.mdx  delete-task.mdx  delete-webhook.mdx  get-file.mdx  get-task.mdx  get-tasks.mdx  integrations  list-files.mdx  list-projects.mdx  openai-compatibility  openapi.json  overview.mdx  quickstart.mdx  update-task.mdx	webhooks  webhooks.mdx
+/home/ubuntu/skills/manus-api/docs/v1/connectors:
+gmail.mdx  google-calendar.mdx	notion.mdx  overview.mdx
+/home/ubuntu/skills/manus-api/docs/v1/data-integrations:
+overview.mdx  similarweb.mdx
+/home/ubuntu/skills/manus-api/docs/v1/integrations:
+overview.mdx  slack.mdx
+/home/ubuntu/skills/manus-api/docs/v1/openai-compatibility:
+overview.mdx
+/home/ubuntu/skills/manus-api/docs/v1/webhooks:
+overview.mdx  security.mdx
+/home/ubuntu/skills/manus-api/docs/v2:
+agent.detail.mdx  agents-overview.mdx	  connector.list.mdx		  data-integrations-similarweb.mdx  file.upload.mdx	       introduction.mdx  project.create.mdx  skill.list.mdx	    task.confirmAction.mdx  task.detail.mdx	   task.sendMessage.mdx  usage.list.mdx		  webhook.create.mdx  webhook.publicKey.mdx  website.listCheckpoints.mdx  website.status.mdx
+agent.list.mdx	  authentication.mdx	  connectors.mdx		  file.delete.mdx		    integrations-overview.mdx  oauth.mdx	 project.list.mdx    structured-output.mdx  task.create.mdx	    task.list.mdx	   task.stop.mdx	 usage.teamLog.mdx	  webhook.delete.mdx  webhooks-overview.mdx  website.mdx		  website.update.mdx
+agent.update.mdx  browser.onlineList.mdx  data-integrations-overview.mdx  file.detail.mdx		    integrations-slack.mdx     openapi_v2.json	 rate-limits.mdx     task-lifecycle.mdx     task.delete.mdx	    task.listMessages.mdx  task.update.mdx	 usage.teamStatistic.mdx  webhook.list.mdx    webhooks-security.mdx  website.publish.mdx
+/home/ubuntu/skills/manus-config:
+SKILL.md
+/home/ubuntu/skills/music-prompter:
+SKILL.md
+/home/ubuntu/skills/persistent-computing:
+SKILL.md  references
+/home/ubuntu/skills/persistent-computing/references:
+cloud-computer-reference.md  migrate-webdev-to-cloud-computer.md  reserved-hosting-reference.md  work-with-connectors.md
+/home/ubuntu/skills/seo-audit:
+SKILL.md  references  scripts  templates
+/home/ubuntu/skills/seo-audit/references:
+/home/ubuntu/skills/seo-audit/scripts:
+generate_seo_audit_charts.py  validate_exec_summary.py
+/home/ubuntu/skills/seo-audit/templates:
+report_structure.md
+/home/ubuntu/skills/seo-competitor-analysis:
+SKILL.md  references  scripts
+/home/ubuntu/skills/seo-competitor-analysis/references:
+data_dictionary.md  style_example.md
+/home/ubuntu/skills/seo-competitor-analysis/scripts:
+generate_seo_charts.py	validate_report_assets.py
+/home/ubuntu/skills/skill-creator:
+LICENSE.txt  SKILL.md  references  scripts
+/home/ubuntu/skills/skill-creator/references:
+output-patterns.md  progressive-disclosure-patterns.md	workflows.md
+/home/ubuntu/skills/skill-creator/scripts:
+init_skill.py  quick_validate.py
+/home/ubuntu/skills/tts-prompter:
+SKILL.md
+/home/ubuntu/upload:
+markDown1781353587378.md
+[32mubuntu@sandbox:~$ [0m

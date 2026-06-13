@@ -1,0 +1,4 @@
+total 20
+drwx------  2 ubuntu ubuntu  4096 Jun 13 12:28 .
+drwxr-x--- 18 ubuntu ubuntu  4096 Jun 13 12:30 ..
+-rw-------  1 ubuntu ubuntu 11742 Jun 13 12:28 2026-06-13_12-28-30_136843_734.txt
