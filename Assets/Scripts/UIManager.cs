@@ -5,8 +5,9 @@ public class UIManager : MonoBehaviour
 {
     public GameObject mainMenuPanel;
     public GameObject gamePanel;
-    public GameObject storePanel;
     public GameObject settingsPanel;
+    // Store paneli gerçek ödemeler kaldırıldığı için şimdilik devre dışı veya oyun içi jeton odaklı olacak.
+    public GameObject inGameStorePanel; 
 
     void Start()
     {
@@ -18,8 +19,8 @@ public class UIManager : MonoBehaviour
     {
         mainMenuPanel.SetActive(true);
         gamePanel.SetActive(false);
-        storePanel.SetActive(false);
         settingsPanel.SetActive(false);
+        if(inGameStorePanel != null) inGameStorePanel.SetActive(false);
         Debug.Log("Showing Main Menu.");
     }
 
@@ -27,33 +28,22 @@ public class UIManager : MonoBehaviour
     {
         mainMenuPanel.SetActive(false);
         gamePanel.SetActive(true);
-        storePanel.SetActive(false);
         settingsPanel.SetActive(false);
+        if(inGameStorePanel != null) inGameStorePanel.SetActive(false);
         Debug.Log("Showing Game Panel.");
     }
 
-    public void ShowStorePanel()
+    public void ShowInGameStore()
     {
         mainMenuPanel.SetActive(false);
         gamePanel.SetActive(false);
-        storePanel.SetActive(true);
         settingsPanel.SetActive(false);
-        Debug.Log("Showing Store Panel.");
+        if(inGameStorePanel != null) inGameStorePanel.SetActive(true);
+        Debug.Log("Showing In-Game Store (Coins only).");
     }
 
-    public void ShowSettingsPanel()
-    {
-        mainMenuPanel.SetActive(false);
-        gamePanel.SetActive(false);
-        storePanel.SetActive(false);
-        settingsPanel.SetActive(true);
-        Debug.Log("Showing Settings Panel.");
-    }
-
-    // Placeholder for general UI interactions
     public void OnButtonClick(string buttonName)
     {
         Debug.Log($"{buttonName} button clicked.");
-        // Implement specific button actions here
     }
 }

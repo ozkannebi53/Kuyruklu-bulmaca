@@ -2,16 +2,16 @@ using UnityEngine;
 
 public class EconomyManager : MonoBehaviour
 {
-    public int scorpionTokens = 0; // Akrep Jetonu
-    public int premiumCrystals = 0; // Premium Kristal
+    public int scorpionTokens = 0; // Akrep Jetonu (Oyun içi para)
 
-    // Akrep Jetonu
+    // Akrep Jetonu Ekleme
     public void AddScorpionTokens(int amount)
     {
         scorpionTokens += amount;
         Debug.Log($"{amount} Scorpion Tokens added. Total: {scorpionTokens}");
     }
 
+    // Akrep Jetonu Harcama
     public bool SpendScorpionTokens(int amount)
     {
         if (scorpionTokens >= amount)
@@ -24,34 +24,10 @@ public class EconomyManager : MonoBehaviour
         return false;
     }
 
-    // Premium Kristal
-    public void AddPremiumCrystals(int amount)
-    {
-        premiumCrystals += amount;
-        Debug.Log($"{amount} Premium Crystals added. Total: {premiumCrystals}");
-    }
-
-    public bool SpendPremiumCrystals(int amount)
-    {
-        if (premiumCrystals >= amount)
-        {
-            premiumCrystals -= amount;
-            Debug.Log($"{amount} Premium Crystals spent. Remaining: {premiumCrystals}");
-            return true;
-        }
-        Debug.Log("Not enough Premium Crystals.");
-        return false;
-    }
-
-    // Ekonomi Dengesi (Placeholder for complex balancing logic)
-    public void BalanceEconomy()
-    {
-        Debug.Log("Balancing game economy (gain/spend rates, inflation control)...");
-        // Implement complex economy balancing algorithms here
-    }
+    // Gerçek para ile ilgili tüm metodlar (Premium Kristal vb.) geçici olarak kaldırıldı.
 
     void Start()
     {
-        Debug.Log("EconomyManager started.");
+        Debug.Log("EconomyManager started (Internal Currency Only).");
     }
 }
